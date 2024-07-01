@@ -1,0 +1,22 @@
+.header {
+    margin-top: 16px;
+    text-align: left;
+    margin-right: 16px;
+}
+
+.header a {
+    color: #FFFFFF;
+    margin-right: 10px;
+    background: #181818;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.header .active {
+    background: #272727;
+}
+
+.header a:hover {
+    background: #272727;
+}

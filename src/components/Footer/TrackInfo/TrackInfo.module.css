@@ -1,0 +1,28 @@
+
+.trackInfo {
+    display: flex;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    width: 350px;
+    align-items: center;
+}
+
+.trackInfo > * {
+}
+
+.trackInfo > img {
+    border-radius: 10px;
+    width: 100px;
+    justify-self: center;
+    margin: 15px;
+}
+
+.textbox {
+    text-align: left;
+}
+
+.text {
+    color: white;
+    max-height: 80px;
+    overflow: hidden;
+}

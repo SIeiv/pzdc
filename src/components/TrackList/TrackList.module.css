@@ -1,0 +1,46 @@
+.tracklist {
+    display: flex;
+    background: #121212;
+    overflow-y: scroll;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 50px;
+
+    max-height: 85%;
+
+    padding-right: 35px;
+}
+
+.tracklist::-webkit-scrollbar {
+    width: 16px;
+}
+
+.tracklist::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+}
+
+.tracklist::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+}
+
+.tracklist ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-auto-flow: row;
+}
+
+@media screen and (max-width: 900px) {
+    .tracklist ul {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .tracklist ul {
+        grid-template-columns: auto;
+        margin: 0;
+        padding: 0;
+    }
+}
